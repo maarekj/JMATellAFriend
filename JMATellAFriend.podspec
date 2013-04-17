@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/maarekj/JMATellAFriend'
   s.author = 'Joseph Maarek'
   
-  s.source = { :git => "git://github.com/maarekj/JMATellAFriend.git", :tag => 'v1.0.0' }
+  s.source = { :git => "https://github.com/maarekj/JMATellAFriend.git", :tag => 'v1.0.0' }
   s.requires_arc = true
   s.platform = :ios, '5.0'
   s.ios.deployment_target = '5.0'
