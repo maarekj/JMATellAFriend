@@ -17,7 +17,7 @@
 		D085E7A6171F2FB4004067CE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D085E7A5171F2FB4004067CE /* Default@2x.png */; };
 		D085E7A8171F2FB4004067CE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D085E7A7171F2FB4004067CE /* Default-568h@2x.png */; };
 		D085E7B1171F3074004067CE /* JMATellAFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = D085E7B0171F3074004067CE /* JMATellAFriend.m */; };
-		D085E7B5171F32ED004067CE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D085E7B3171F32ED004067CE /* Localizable.strings */; };
+		D085E7B5171F32ED004067CE /* jmatellafriend.strings in Resources */ = {isa = PBXBuildFile; fileRef = D085E7B3171F32ED004067CE /* jmatellafriend.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 		D085E7A7171F2FB4004067CE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D085E7AF171F3074004067CE /* JMATellAFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMATellAFriend.h; sourceTree = "<group>"; };
 		D085E7B0171F3074004067CE /* JMATellAFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMATellAFriend.m; sourceTree = "<group>"; };
-		D085E7B4171F32ED004067CE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D085E7B4171F32ED004067CE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/jmatellafriend.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 		D085E7B2171F32ED004067CE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D085E7B3171F32ED004067CE /* Localizable.strings */,
+				D085E7B3171F32ED004067CE /* jmatellafriend.strings */,
 			);
 			name = Resources;
 			path = src/Resources;
@@ -181,7 +181,7 @@
 				D085E7A4171F2FB4004067CE /* Default.png in Resources */,
 				D085E7A6171F2FB4004067CE /* Default@2x.png in Resources */,
 				D085E7A8171F2FB4004067CE /* Default-568h@2x.png in Resources */,
-				D085E7B5171F32ED004067CE /* Localizable.strings in Resources */,
+				D085E7B5171F32ED004067CE /* jmatellafriend.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,12 +209,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D085E7B3171F32ED004067CE /* Localizable.strings */ = {
+		D085E7B3171F32ED004067CE /* jmatellafriend.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D085E7B4171F32ED004067CE /* fr */,
 			);
-			name = Localizable.strings;
+			name = jmatellafriend.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

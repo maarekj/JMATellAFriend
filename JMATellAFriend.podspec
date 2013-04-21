@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name = 'JMATellAFriend'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.summary = 'JMATellAFriend is an iOS toolkit for displaying a preconfigued mail composer with a "Tell a Friend" template in ios apps.'
   s.homepage = 'https://github.com/maarekj/JMATellAFriend'
   s.author = 'Joseph Maarek'
   
-  s.source = { :git => "https://github.com/maarekj/JMATellAFriend.git", :tag => 'v1.0.0' }
+  s.source = { :git => "https://github.com/maarekj/JMATellAFriend.git", :tag => 'v1.0.1' }
   s.requires_arc = true
   s.platform = :ios, '5.0'
   s.ios.deployment_target = '5.0'

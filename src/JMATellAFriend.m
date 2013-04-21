@@ -41,11 +41,11 @@ static NSString *const JMATellAFriendCountTimeKey = @"JMATellAFriendCountTimeKey
     } else {
         NSString *rememberKey = [defaults stringForKey:JMATellAFriendRememberKey];
         if ([rememberKey isEqualToString:kRemindLater] || rememberKey == nil) {
-            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Rate This App", @"")
-                                                                message:[NSString stringWithFormat:NSLocalizedString(@"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!", @""), self.applicationName] 
+            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedStringFromTable(@"Rate This App", @"jmatellafriend", @"")
+                                                                message:[NSString stringWithFormat:NSLocalizedStringFromTable(@"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!", @"jmatellafriend", @""), self.applicationName]
                                                                delegate:self
-                                                      cancelButtonTitle:NSLocalizedString(@"Remind later", @"")
-                                                      otherButtonTitles:NSLocalizedString(@"Rate now", @""), NSLocalizedString(@"Don't remind me", @""), nil];
+                                                      cancelButtonTitle:NSLocalizedStringFromTable(@"Remind later", @"jmatellafriend", @"")
+                                                      otherButtonTitles:NSLocalizedStringFromTable(@"Rate now", @"jmatellafriend", @""), NSLocalizedStringFromTable(@"Don't remind me", @"jmatellafriend", @""), nil];
             alertView.tag = kAlertViewRememberLaterTag;
             alertView.delegate = self;
             [alertView show];
